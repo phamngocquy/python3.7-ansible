@@ -23,6 +23,7 @@ RUN apt-get -y update && \
 	python3-pip \
         libmysqlclient-dev \
         python3.7-dev \
+	libpq-dev \
 	python-psycopg2 && \
     cd /usr/local/bin && \
     ln -s /usr/bin/python3 python && \
